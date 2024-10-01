@@ -1,14 +1,27 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
+  // Auto detect location function
+
+  
 
   return (
     <>
-        <h1 className='text-4xl text-blue-600 font-semibold'>Weather App</h1>
+      <div className='background p-10 '>
+        <div className='backdrop-blur-sm rounded-xl bg-white/20 w-3/4 m-auto  '>
+        <h1 className='text-5xl text-blue-950 text-center font-bold  p-10' >Weather App</h1>
+        
+        {/* <searchBar/>
+        <Weather
+          <card/>(7 days forecast)
+        /> (temp,air,humidity) */}
+        
+        </div>
+      </div>
     </>
   )
 }
