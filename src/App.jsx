@@ -13,7 +13,7 @@ function App() {
     <>
       <div className='background p-10 '>
         <div className='backdrop-blur-sm rounded-xl bg-white/20 w-3/4 m-auto  '>
-        <h1 className='text-5xl text-blue-950 text-center font-bold  p-10' >Weather App</h1>
+        <h1 className='text-5xl text-black text-center font-bold  p-10' >Weather App</h1>
         
         {/* <searchBar/>
         <Weather
